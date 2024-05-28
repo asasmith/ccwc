@@ -22,6 +22,10 @@ go build .
 // 7145 58164 342190 ./test.txt
 ```
 
+Supports flags for byte count `-c`, line count `-l`, character count `-m`, and word count `-w`. If no flag is passed the tool returns `-c`, `-l`, and `-w` options.
+
+Also supports `-help` flag.
+
 ```
 Usage of ./ccwc:
   -c    Returns byte count for file
